@@ -1,0 +1,23 @@
+{
+	"version": "2.1.5",
+	"compilerOptions": {
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"module": "umd",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"removeComments": false,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "es5",
+		"baseUrl": "node_modules",
+		"paths": {
+			"core-library/*": [ "../../core-library/dist/*" ]
+		}
+	},
+	"include": [
+		"./src/**/*.ts"
+	]
+}

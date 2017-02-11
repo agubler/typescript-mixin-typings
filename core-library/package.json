@@ -1,0 +1,6 @@
+{
+  "name": "core-library",
+  "dependencies": {
+    "typescript": "^2.2.0"
+  }
+}
