@@ -12,6 +12,7 @@
 		"sourceMap": true,
 		"strictNullChecks": true,
 		"target": "es5",
+		"outDir": "dist",
 		"baseUrl": "node_modules",
 		"paths": {
 			"core-library/*": [ "../../core-library/dist/*" ]
